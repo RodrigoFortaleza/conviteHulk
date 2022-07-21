@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  width: 1024px;
+  height: 1900px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image:linear-gradient(0deg, rgb(39, 64, 39), rgb(99, 133, 72));
+  color: #a1b8a4;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+}
+
+h6 {
+  display: flex;
+  font-size: 50px;
+}
+
+h5 {
+  font-size: 50px;
+}
+
+.convite{
+  display: flex;
+  width: 550px;
+  height: 850px;
+  border: 5px solid #1a311f;
+  flex-direction: column;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 420px;
+  flex-direction: column;
+  background-image:linear-gradient(45deg,rgb(99, 133, 72), rgb(39, 64, 39));
+  
+}
+
+.aranha {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  border-radius: 100px;
+  margin-top: 10px;
+}
+
+.fita {
+  display: flex;
+  width: 300px;
+  height: 250px;
+  margin-top: -40px; 
+}
+
+h1 {
+  display: flex;
+  font-size: 40px;
+  color: #1a311f;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+h2 {
+  display: flex;
+  color: #1a311f;
+  font-size: 40px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  border: 5px dashed #1a311f;
+  margin-top: 10px;
+  background-image:linear-gradient(45deg, rgb(39, 64, 39), rgb(99, 133, 72));
+}
+
+.left {
+  width: 350px;
+  height: 100%;
+}
+
+.right {
+  width: 200px;
+  flex-direction: column;
+}
+
+
+.endereco {
+  display: flex;
+  font-size: 50px;
+  border-bottom: 5px dashed #1a311f;
+  border-right: 5px dashed #1a311f;
+  height: 160px;
+  padding: 5px;
+  justify-content: center;
+  font-weight: bold;
+  
+}
+
+.hora {
+  display: flex;
+  border-right: 5px dashed #1a311f;
+  height: 140px;
+  font-size: 50px;
+  padding: 5px;
+  justify-content: center;
+   font-weight: bold;
+}
+
+.data {
+  display: flex;
+  font-size: 50px;
+  padding: 5px;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.endereco-1 {
+  display: flex;
+  font-weight: bold;
+  font-size: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hora-1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.data-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: -20px;
+  font-weight: bold;
+}
+
+.data-2 {
+  display: flex;
+  margin-left: -20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.recado {
+  display: flex;
+  font-size: 25px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-image:linear-gradient(45deg, rgb(99, 133, 72), rgb(39, 64, 39));
+}
